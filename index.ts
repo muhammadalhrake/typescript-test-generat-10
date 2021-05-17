@@ -47,7 +47,7 @@ function generate(digitsNum: number) {
 }
 let testing=generate(2)
 console.log('Hello');
-setInterval(() =>test(generate(between(2,9))), 500);
+/* setInterval(() =>test(generate(between(2,9))), 500); */
 /* setInterval(() => console.log(generate(3)), 500); */
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
