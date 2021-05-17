@@ -13,6 +13,8 @@ function test(array: Array<number>) {
   }
   if (sum > 10) {
     testOn = true;
+  }else{
+    testOn=false
   }
   console.log(testOn)
 }
